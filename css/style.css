@@ -8,11 +8,11 @@ body {
   font-family: "Lucida Sans Unicode";
 }
 
-body .header {
+.header {
   background: radial-gradient(circle, #bedfd0 200px, #00afd1);
 }
 
-body .header .img {
+.img {
   height: 200px;
 }
 
