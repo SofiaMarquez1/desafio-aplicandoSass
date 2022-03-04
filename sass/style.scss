@@ -1,0 +1,44 @@
+$color-celeste: #a5e2ba;
+$color-letra:white;
+$tipo-letra:'Lucida Sans Unicode';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: $tipo-letra;
+    .header{
+        background: radial-gradient( circle, #bedfd0 200px, #00afd1);
+        .img{
+            height:200px;
+        }
+    }
+} 
+.foto{
+    background-color: $color-celeste;
+}
+
+.video{
+    margin-bottom: 70px;
+}
+
+.comienzo{
+    background-color: $color-celeste;
+}
+
+.imgh{
+    height: 300px;
+}
+
+.footer{
+    color: $color-letra;
+    font-family: $tipo-letra;
+}
+
+.a{
+    &:hover{
+        transform: scale(1.5);
+    }
+}
